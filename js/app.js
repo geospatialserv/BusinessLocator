@@ -244,7 +244,7 @@
           var details = listing.appendChild(document.createElement('div'));
           details.innerHTML = prop.address;
           if (prop.website) {
-            details.innerHTML += ' || ' + prop.website;
+            details.innerHTML += ' <br/> ' + prop.website;
           }
 
           /**

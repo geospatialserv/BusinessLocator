@@ -14,7 +14,7 @@
 
   .sidebar {
       position: absolute;
-      width: 25%;
+      width: 30%;
       height: 100%;
       top: 0;
       left: 0;
@@ -28,8 +28,8 @@
 
   .map {
       position: absolute;
-      left: 25%;
-      width: 75%;
+      left: 30%;
+      width: 70%;
       top: 0;
       bottom: 0;
   }
@@ -82,6 +82,9 @@
       display: block;
       color: #0096ff;
       font-weight: 900;
+	  background-color:#343638;
+	  padding:5px;
+	  border-radius:20px;
   }
 
   .listings .item .title small {
